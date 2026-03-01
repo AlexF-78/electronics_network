@@ -9,7 +9,7 @@ from .models import Contact, NetworkNode, Product
 class ContactAdmin(admin.ModelAdmin):
     """Настройка отображения контактов в админке"""
 
-    list_display = ("email", "country", "city", "street", "house_number")
+    list_display = ("id", "email", "country", "city", "street", "house_number")
     list_filter = ("country", "city")
     search_fields = ("email", "country", "city")
 
