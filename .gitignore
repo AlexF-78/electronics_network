@@ -33,3 +33,4 @@ poetry.toml
 
 # Бэкапы
 *.bak
+.coverage
